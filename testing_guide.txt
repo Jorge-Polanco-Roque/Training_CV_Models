@@ -1,0 +1,13 @@
+✅ Prueba 1: Usando Football-Analytics-with-Deep-Learning-and-Computer-Vision/best.pt
+python scripts/video_infer.py \
+  --weights models/retrained_model/Football-Analytics-with-Deep-Learning-and-Computer-Vision/best.pt \
+  --source inputs/v06.mp4 \
+  --save-path outputs/v06_output_Football-Analytics.mp4
+
+
+✅ Prueba 2: Usando train_ball_aggressive_aug/best.pt
+python scripts/video_infer.py \
+  --weights models/retrained_model/train_ball_aggressive_aug/best.pt \
+  --source inputs/v06.mp4 \
+  --save-path outputs/v06_output_train_ball_aggressive_aug.mp4
+
